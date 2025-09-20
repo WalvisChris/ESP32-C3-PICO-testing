@@ -21,7 +21,7 @@ print("Verbonden! IP:", wlan.ifconfig()[0])
 
 # HTML-bestand inladen
 def load_html():
-    with open("index.html", "r") as f:
+    with open("webserver.html", "r") as f:
         return f.read()
 
 # Webserver starten
